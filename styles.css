@@ -1,6 +1,8 @@
 * {
     max-width: 100%;
     font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .intro, footer {
@@ -33,7 +35,7 @@ h3 {
 }
 button {
     background-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 30px;
     padding:20px;
     border: 2px;
     border-style: inset;
@@ -126,4 +128,5 @@ small {
 footer {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
 }
