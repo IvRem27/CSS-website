@@ -4,6 +4,9 @@
     margin: 0px;
     border: 0px;
 }
+body {
+    background-color: #eeddf3;
+}
 .intro, footer {
     background-color: #1F2937;
     color: aliceblue;
