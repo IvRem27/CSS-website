@@ -9,6 +9,12 @@
     background-color: #1F2937;
     color: aliceblue;
 }
+.nav p:first-of-type {
+    margin-top: 30px;
+}
+.intro {
+    margin-top: 0px;
+}
 h1{
     color: #F9FAF8;
     font-size: 48px;
@@ -36,7 +42,7 @@ h3 {
 button {
     background-color: #3882F6;
     border-radius: 30px;
-    padding:20px;
+    padding:10px;
     border: 2px;
     border-style: inset;
 }
@@ -98,6 +104,7 @@ figcaption {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px;
 }
 .qoute small {
     display: block;
@@ -111,7 +118,7 @@ figcaption {
     align-content: center;
     background-color: #1F2937;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .signup1 {
     display:flex;
@@ -129,4 +136,5 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
