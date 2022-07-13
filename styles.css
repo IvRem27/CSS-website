@@ -35,6 +35,8 @@ button {
     background-color: #3882F6;
     border-radius: 10px;
     padding:20px;
+    border: 2px;
+    border-style: inset;
 }
 button a {
     color: #F9FAF8;
@@ -77,8 +79,9 @@ li {
 .container1 img {
     width: 200px;
     height: 200px;
-    border: 30px;
+    border: 2px;
     border-radius: 30px;
+    border-style: inset;
 }
 .item1,.item2,.item3,.item4 {
     display: flex;
