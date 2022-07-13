@@ -76,16 +76,19 @@ li {
     margin: 30px;
     justify-content: space-around;
 }
-.container1 img {
+.container1 figure img {
     width: 200px;
     height: 200px;
     border: 2px;
     border-radius: 30px;
     border-style: inset;
 }
-.item1,.item2,.item3,.item4 {
+figure {
     display: flex;
     flex-direction: column;
+}
+figcaption {
+    font-weight: bold;
 }
 .qoute {
     display: flex;
@@ -94,7 +97,7 @@ li {
     flex-direction: column;
     align-items: center;
 }
-figure small {
+.qoute small {
     display: block;
     text-align: right;
 }
